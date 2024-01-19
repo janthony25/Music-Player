@@ -528,3 +528,44 @@ body {
   position: absolute;
   bottom: 0.8rem;
 }
+
+@media screen and (max-width: 1400px) {
+  .container .sidebar .play .bottom p {
+    font-size: 1rem;
+  }
+
+  .container main header .search {
+    width: 50%;
+  }
+
+  .container main .trending .left .info h2 {
+    font-size: 3.6rem;
+  }
+
+  .container main .trending img {
+    width: 20rem;
+    height: 18rem;
+  }
+
+  .container main .playlist .genres {
+    width: 30%;
+  }
+
+  .container main .playlist .genres .items {
+    grid-template-columns: 1fr;
+  }
+
+  .container main .playlist .genres .items .item {
+    padding: 1rem;
+  }
+
+  .container main .playlist .genres .items .item p {
+    font-size: 1.2rem;
+  }
+
+  .container main .playlist .genres .items .item:nth-child(6),
+  .container main .playlist .music-list .items .item .info > p {
+    display: none;
+  }
+
+   
