@@ -302,6 +302,64 @@ body {
   background-color: #5547a5;
 }
 
+.container main .playlist .music-list {
+  background-color: #202026;
+  padding: 2rem;
+  color: #fff;
+  border-radius: 0.6rem;
+  width: 65%;
+}
+
+.container main .playlist .music-list .items .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.container main .playlist .music-list .items .item:last-child {
+  margin-bottom: 0;
+}
+
+.container main .playlist .music-list .items .item .info,
+.container main .playlist .music-list .items .item .actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container main .playlist .music-list .items .item .info p {
+  color: #919191;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.6rem;
+}
+
 .container main .playlist .music-list .items .item .info img {
   width: 5rem;
+  height: 5rem;
+}
+
+.container main .playlist .music-list .items .item .actions p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.container main .playlist .music-list .items .item .actions .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #32323d;
+  padding: 0.6rem;
+  border: 0.2rem solid #464748;
+  border-radius: 0.6rem;
+}
+
+.container main .playlist .music-list .items .item .actions .icon i {
+  font-size: 1rem;
+  color: #5773ff;
+}
+
+.container main .playlist .music-list .items .item .actions i {
+  color: #919191;
 }
