@@ -229,3 +229,79 @@ body {
   width: 30rem;
   height: 20rem;
 }
+
+.container main .playlist {
+  margin-top: 1.4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.container main .playlist .genres {
+  color: #fff;
+  background-color: #202026;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  width: 40%;
+}
+
+.container main .playlist .genres .header,
+.container main .playlist .music-list .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.container main .playlist .genres .header a,
+.container main .playlist .music-list .header a {
+  color: #919191;
+  font-size: 1.2rem;
+}
+
+.container main .playlist .genres .items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.container main .playlist .genres .items .item {
+  padding: 2.2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.container main .playlist .genres .items .item p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.container main .playlist .genres .items .item:nth-child(1) {
+  background-color: #47618a;
+}
+
+.container main .playlist .genres .items .item:nth-child(2) {
+  background-color: #a69984;
+}
+
+.container main .playlist .genres .items .item:nth-child(3) {
+  background-color: #a24c3f;
+}
+
+.container main .playlist .genres .items .item:nth-child(4) {
+  background-color: #0d4045;
+}
+
+.container main .playlist .genres .items .item:nth-child(5) {
+  background-color: #a67894;
+}
+
+.container main .playlist .genres .items .item:nth-child(6) {
+  background-color: #5547a5;
+}
+
+.container main .playlist .music-list .items .item .info img {
+  width: 5rem;
+}
