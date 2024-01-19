@@ -567,5 +567,85 @@ body {
   .container main .playlist .music-list .items .item .info > p {
     display: none;
   }
+}
 
-   
+@media screen and (max-width: 1200px) {
+  .container main header .search {
+    width: 40%;
+  }
+
+  .container main .trending .left .info h2 {
+    font-size: 2.4rem;
+  }
+
+  .container main .trending .left .info h5 {
+    display: block;
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+
+  .container main .trending .left .info .buttons button {
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  .container main .trending .left .info .buttons i {
+    font-size: 1.4rem;
+  }
+
+  .container main .playlist .genres {
+    display: none;
+  }
+
+  .container main .playlist .music-list {
+    width: 100%;
+  }
+
+  .container .right-section .music-player {
+    height: 88%;
+  }
+
+  .container .right-section .music-player .song-info img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .container .right-section .music-player .song-info .description h3 {
+    font-size: 2.2rem;
+  }
+
+  .container .right-section .music-player .song-info .progress {
+    margin: 0;
+  }
+
+  .container .right-section .music-player .song-info .progress .active-line {
+    width: 8rem;
+  }
+
+  .container .right-section .music-player .song-info .progress .deactive-line {
+    width: 4rem;
+  }
+
+  .container
+    .right-section
+    .music-player
+    .song-info
+    .progress
+    .active-line::before {
+    left: 8rem;
+  }
+
+  .container .right-section .music-player .player-actions .buttons {
+    margin-top: 3rem;
+  }
+
+  .container
+    .right-section
+    .music-player
+    .player-actions
+    .buttons
+    .play-button {
+    padding: 1rem;
+    border-radius: 1.6rem;
+  }
+}
