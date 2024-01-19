@@ -73,7 +73,8 @@ body {
 .container .sidebar .logo:hover a,
 .container .sidebar .logo:hover i,
 .container .sidebar .menu ul li:hover a,
-.container .sidebar .menu ul li:hover i {
+.container .sidebar .menu ul li:hover i,
+.container main header .nav-links a:hover {
   color: #5773ff;
 }
 
@@ -128,4 +129,45 @@ body {
 
 .container .sidebar .playing .bottom i {
   color: #919191;
+}
+
+.container main {
+  padding: 2rem 3.6rem;
+}
+
+.container main header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container main header .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container main header .nav-links a {
+  text-transform: uppercase;
+  color: #919191;
+  transition: all 0.3 ease;
+}
+
+.container main header .search {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 70%;
+  background-color: #1d1d1d;
+  border: 1px solid #464748;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+.container main header .search input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
 }
